@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color ic_launcher_background
 color white
 drawable bg_botao_circular
 drawable bg_contador_sync
@@ -66,6 +67,7 @@ layout activity_scanner
 layout activity_sync
 layout item_sync_pendencia
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string firebase_database_url

@@ -12,16 +12,8 @@
         "source": "com.cj.registrodecampo.app-main-7:/drawable/ic_key.xml"
     },
     {
-        "merged": "com.cj.registrodecampo.app-debug-5:/mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "com.cj.registrodecampo.app-main-7:/mipmap-anydpi/ic_launcher_round.xml"
-    },
-    {
         "merged": "com.cj.registrodecampo.app-debug-5:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "com.cj.registrodecampo.app-main-7:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.cj.registrodecampo.app-debug-5:/mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "com.cj.registrodecampo.app-main-7:/mipmap-anydpi/ic_launcher.xml"
     },
     {
         "merged": "com.cj.registrodecampo.app-debug-5:/drawable_ic_back.xml.flat",
@@ -40,8 +32,16 @@
         "source": "com.cj.registrodecampo.app-main-7:/font/araboto_normal.ttf"
     },
     {
+        "merged": "com.cj.registrodecampo.app-debug-5:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.cj.registrodecampo.app-main-7:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
         "merged": "com.cj.registrodecampo.app-debug-5:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "com.cj.registrodecampo.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cj.registrodecampo.app-debug-5:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.cj.registrodecampo.app-main-7:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     },
     {
         "merged": "com.cj.registrodecampo.app-debug-5:/layout_activity_sync.xml.flat",
@@ -56,12 +56,20 @@
         "source": "com.cj.registrodecampo.app-main-7:/layout/activity_main.xml"
     },
     {
+        "merged": "com.cj.registrodecampo.app-debug-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.cj.registrodecampo.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
         "merged": "com.cj.registrodecampo.app-debug-5:/xml_backup_rules.xml.flat",
         "source": "com.cj.registrodecampo.app-main-7:/xml/backup_rules.xml"
     },
     {
         "merged": "com.cj.registrodecampo.app-debug-5:/drawable_bg_contador_sync.xml.flat",
         "source": "com.cj.registrodecampo.app-main-7:/drawable/bg_contador_sync.xml"
+    },
+    {
+        "merged": "com.cj.registrodecampo.app-debug-5:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.cj.registrodecampo.app-main-7:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
         "merged": "com.cj.registrodecampo.app-debug-5:/drawable_ic_auto_fix.xml.flat",
@@ -112,6 +120,10 @@
         "source": "com.cj.registrodecampo.app-main-7:/drawable/ic_lado.xml"
     },
     {
+        "merged": "com.cj.registrodecampo.app-debug-5:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.cj.registrodecampo.app-main-7:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
         "merged": "com.cj.registrodecampo.app-debug-5:/drawable_ic_shutter.xml.flat",
         "source": "com.cj.registrodecampo.app-main-7:/drawable/ic_shutter.xml"
     },
@@ -128,12 +140,20 @@
         "source": "com.cj.registrodecampo.app-main-7:/drawable/ic_pending.xml"
     },
     {
+        "merged": "com.cj.registrodecampo.app-debug-5:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.cj.registrodecampo.app-main-7:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
         "merged": "com.cj.registrodecampo.app-debug-5:/drawable_ic_launcher_foreground.xml.flat",
         "source": "com.cj.registrodecampo.app-main-7:/drawable/ic_launcher_foreground.xml"
     },
     {
         "merged": "com.cj.registrodecampo.app-debug-5:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "com.cj.registrodecampo.app-main-7:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cj.registrodecampo.app-debug-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.cj.registrodecampo.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "com.cj.registrodecampo.app-debug-5:/mipmap-xhdpi_ic_launcher.webp.flat",
