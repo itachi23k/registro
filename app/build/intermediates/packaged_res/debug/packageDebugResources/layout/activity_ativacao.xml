@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0A0A"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_key"
+        app:tint="#FF9800"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRO DE CAMPO"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:letterSpacing="0.1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="app destinado ao registro das atividades de campo"
+        android:textColor="#666666"
+        android:textSize="14sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAtivarFirebase"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="VERIFICAR LICENÇA NA NUVEM"
+        android:backgroundTint="#FF9800"
+        android:textColor="#000000"
+        app:cornerRadius="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Requer conexão com a internet para ativar"
+        android:textColor="#444444"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvDeviceId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="ID: CARREGANDO..."
+        android:textColor="#333333"
+        android:textSize="11sp"
+        android:padding="8dp"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Toque longo para copiar o ID)"
+        android:textColor="#222222"
+        android:textSize="9sp" />
+
+</LinearLayout>

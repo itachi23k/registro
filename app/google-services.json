@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "482477579606",
+    "firebase_url": "https://registro-de-campo-br319-default-rtdb.firebaseio.com",
+    "project_id": "registro-de-campo-br319",
+    "storage_bucket": "registro-de-campo-br319.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482477579606:android:8e1eab827efea5f61c0af7",
+        "android_client_info": {
+          "package_name": "com.cj.producao"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXd0e_bYDkj0WA5H1TLzW5BzlrWaoa5HA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482477579606:android:9628da5bff3686ac1c0af7",
+        "android_client_info": {
+          "package_name": "com.cj.registrodecampo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXd0e_bYDkj0WA5H1TLzW5BzlrWaoa5HA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
