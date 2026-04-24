@@ -41,6 +41,7 @@
                 android:src="@drawable/logo_lcm" />
 
             <LinearLayout
+                android:id="@+id/layoutHudLegenda"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -48,13 +49,15 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent">
 
-                <TextView android:id="@+id/hudTvUtm" style="@style/HudTextStyle" android:text="20M 000000 0000000" />
-                <TextView android:id="@+id/hudTvRodovia" style="@style/HudTextStyle" android:text="BR-319/AM" />
-                <TextView android:id="@+id/hudTvContrato" style="@style/HudTextStyle" android:text="TT-563/2024" />
-                <TextView android:id="@+id/hudTvEstaca" style="@style/HudTextStyle" android:text="ESTACA: 4032" />
-                <TextView android:id="@+id/hudTvLado" style="@style/HudTextStyle" android:text="LADO: D" />
-                <TextView android:id="@+id/hudTvServico" style="@style/HudTextStyle" android:text="SERVIÇO: ROÇADA" />
-                <TextView android:id="@+id/hudTvData" style="@style/HudTextStyle" android:text="06/03/2026" />
+                <TextView android:id="@+id/hudTvUtm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20M 000000 0000000" android:textColor="#FFFFFF" />
+                <TextView android:id="@+id/hudTvRodovia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BR-319/AM" android:textColor="#FFFFFF" />
+                <TextView android:id="@+id/hudTvContrato" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TT-563/2024" android:textColor="#FFFFFF" />
+
+                <TextView android:id="@+id/hudTvEstaca" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ESTACA: 4032" android:textColor="#FFFFFF" />
+
+                <TextView android:id="@+id/hudTvLado" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LADO: D" android:textColor="#FFFFFF" />
+                <TextView android:id="@+id/hudTvServico" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SERVIÇO: ROÇADA" android:textColor="#FFFFFF" />
+                <TextView android:id="@+id/hudTvData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="06/03/2026" android:textColor="#FFFFFF" />
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
@@ -66,11 +69,13 @@
         android:background="#121212"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:padding="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:layout_constraintWidth_percent="0.30">
 
         <LinearLayout
@@ -85,191 +90,166 @@
                 style="@style/Widget.Material3.Button.TonalButton"
                 android:layout_width="42dp"
                 android:layout_height="42dp"
+                android:padding="0dp"
                 android:insetLeft="0dp"
-                android:insetTop="0dp"
                 android:insetRight="0dp"
+                android:insetTop="0dp"
                 android:insetBottom="0dp"
                 app:icon="@drawable/ic_service_s"
-                app:iconGravity="textStart"
                 app:iconPadding="0dp"
+                app:iconGravity="textStart"
                 app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
 
-            <Space
-                android:layout_width="4dp"
-                android:layout_height="wrap_content" />
+            <Space android:layout_width="4dp" android:layout_height="wrap_content" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnSideContrato"
                 style="@style/Widget.Material3.Button.TonalButton"
                 android:layout_width="42dp"
                 android:layout_height="42dp"
+                android:padding="0dp"
                 android:insetLeft="0dp"
-                android:insetTop="0dp"
                 android:insetRight="0dp"
+                android:insetTop="0dp"
                 android:insetBottom="0dp"
                 app:icon="@drawable/ic_contrato"
-                app:iconGravity="textStart"
                 app:iconPadding="0dp"
+                app:iconGravity="textStart"
                 app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
 
-            <Space
-                android:layout_width="4dp"
-                android:layout_height="wrap_content" />
+            <Space android:layout_width="4dp" android:layout_height="wrap_content" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnSideLado"
                 style="@style/Widget.Material3.Button.TonalButton"
                 android:layout_width="42dp"
                 android:layout_height="42dp"
+                android:padding="0dp"
                 android:insetLeft="0dp"
-                android:insetTop="0dp"
                 android:insetRight="0dp"
+                android:insetTop="0dp"
                 android:insetBottom="0dp"
                 app:icon="@drawable/ic_lado"
-                app:iconGravity="textStart"
                 app:iconPadding="0dp"
+                app:iconGravity="textStart"
                 app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
-
-
-
         </LinearLayout>
-
-
-
-
-
-
-
-
-
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="24dp" />
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnEstacaPlus"
-            style="@style/Widget.MaterialComponents.Button"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
-            android:layout_gravity="start"
-            android:layout_marginStart="1dp"
-            app:icon="@drawable/ic_plus"
-            app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="-4dp"
-            android:layout_marginBottom="-4dp">
-
-            <TextView
-                android:id="@+id/tvEstacaDisplay"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="4032"
-                android:textSize="48sp"
-                android:textColor="#FFFFFF"
-                android:textStyle="bold"
-                android:padding="8dp" />
-
-            <ImageButton
-                android:id="@+id/btnInjectEstaca"
-                android:layout_width="56dp"
-                android:layout_height="56dp"
-                android:layout_marginStart="8dp"
-                android:background="@drawable/bg_botao_circular"
-                android:src="@drawable/ic_auto_fix"
-                android:elevation="4dp"
-                android:scaleType="centerInside"
-                android:padding="12dp" />
-        </LinearLayout>
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnEstacaMinus"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
-            android:layout_gravity="start"
-            android:layout_marginStart="1dp"
-            app:icon="@drawable/ic_minus"
-            app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
-
-
-
-
-
-
 
         <View
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <FrameLayout
+            android:id="@+id/frameShutter"
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_gravity="center">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_shutter_ring" />
+
+            <ImageButton
+                android:id="@+id/btnShutter"
+                android:layout_width="74dp"
+                android:layout_height="74dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_shutter_center"
+                android:elevation="4dp"
+                android:scaleType="centerInside" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp">
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="8dp">
 
-            <FrameLayout
-                android:id="@+id/frameShutter"
-                android:layout_width="72dp"
-                android:layout_height="72dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/bg_shutter_ring" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnEstacaPlus"
+                    style="@style/Widget.MaterialComponents.Button"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:padding="0dp"
+                    android:insetLeft="0dp"
+                    android:insetRight="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    app:icon="@drawable/ic_plus"
+                    app:iconPadding="0dp"
+                    app:iconGravity="textStart"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
+
+                <View android:layout_width="64dp" android:layout_height="0dp" />
 
                 <ImageButton
-                    android:id="@+id/btnShutter"
-                    android:layout_width="54dp"
-                    android:layout_height="54dp"
-                    android:layout_gravity="center"
-                    android:background="@drawable/bg_shutter_center" />
-            </FrameLayout>
+                    android:id="@+id/btnInjectEstaca"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_botao_circular"
+                    android:src="@drawable/ic_auto_fix"
+                    android:elevation="2dp"
+                    android:scaleType="centerInside" />
+            </LinearLayout>
 
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/btnGalleryThumbnail"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:background="#333333"
-                android:padding="2dp"
-                android:scaleType="centerCrop"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Medium"
-                app:strokeColor="#FFFFFF"
-                app:strokeWidth="1dp" />
+            <TextView
+                android:id="@+id/tvEstacaDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4032"
+                android:textSize="42sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:includeFontPadding="false"
+                android:layout_marginEnd="48dp" />
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
 
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnEstacaMinus"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:padding="0dp"
+                    android:insetLeft="0dp"
+                    android:insetRight="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    app:icon="@drawable/ic_minus"
+                    app:iconPadding="0dp"
+                    app:iconGravity="textStart"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
 
+                <View android:layout_width="64dp" android:layout_height="0dp" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/btnGalleryThumbnail"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:background="#333333"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Medium"
+                    app:strokeColor="#FFFFFF"
+                    app:strokeWidth="1dp" />
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

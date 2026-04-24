@@ -49,6 +49,7 @@ id hudTvServico
 id hudTvUtm
 id ivStatusSync
 id ivThumbSync
+id layoutHudLegenda
 id pbGlobalSync
 id rvPendenciasSync
 id sideBar

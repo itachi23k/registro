@@ -80,6 +80,8 @@ class MainActivity : AppCompatActivity() {
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
         setContentView(R.layout.activity_main)
 
+
+
         // Inicializa Segurança
         configurarAppCheck()
 
@@ -108,7 +110,30 @@ class MainActivity : AppCompatActivity() {
         configurarBotoes()
         pedirPermissoes()
     }
+    private fun ajustarTamanhoHud() {
+        val cardCamera = findViewById<androidx.cardview.widget.CardView>(R.id.cardCamera)
 
+        // O post garante que o código execute depois que o Android mediu o tamanho da tela
+        cardCamera.post {
+            val alturaCard = cardCamera.height
+            val tamanhoTexto = alturaCard * 0.04f // 4% da altura
+
+            val ids = arrayOf(
+                R.id.hudTvUtm, R.id.hudTvRodovia, R.id.hudTvContrato,
+                R.id.hudTvEstaca, R.id.hudTvLado, R.id.hudTvServico, R.id.hudTvData
+            )
+
+            for (id in ids) {
+                findViewById<TextView>(id)?.let { tv ->
+                    // Usamos COMPLEX_UNIT_PX porque o cálculo já foi feito em pixels
+                    tv.setTextSize(android.util.TypedValue.COMPLEX_UNIT_PX, tamanhoTexto)
+
+                    // Dica extra: sombra para garantir leitura em fundos claros
+                    tv.setShadowLayer(3f, 2f, 2f, Color.BLACK)
+                }
+            }
+        }
+    }
     private fun configurarAppCheck() {
         try {
             FirebaseApp.initializeApp(this)
@@ -521,8 +546,8 @@ class MainActivity : AppCompatActivity() {
             findViewById<TextView>(R.id.hudTvEstaca)?.text = "ESTACA: $estacaAtual"
             findViewById<TextView>(R.id.hudTvLado)?.text = "LADO: $ladoAtual"
             findViewById<TextView>(R.id.hudTvServico)?.text = "SERVIÇO: $servicoAtual"
-            findViewById<MaterialButton>(R.id.btnSideLado)?.text = "LADO: $ladoAtual"
-            findViewById<MaterialButton>(R.id.btnSideContrato)?.text = contratoAtual
+            //findViewById<MaterialButton>(R.id.btnSideLado)?.text = "LADO: $ladoAtual"
+            //findViewById<MaterialButton>(R.id.btnSideContrato)?.text = contratoAtual
         }
     }
 
@@ -547,16 +572,34 @@ class MainActivity : AppCompatActivity() {
         getSharedPreferences("DadosObra", MODE_PRIVATE).edit().apply {
             putInt("SAVED_ESTACA", estacaAtual)
             putString("SAVED_SERVICO", servicoAtual)
+
+            // Salvamos o valor String e o Índice para garantir consistência
             putString("SAVED_CONTRATO", contratoAtual)
+            putInt("SAVED_INDEX_CONTRATO", indexContrato)
+
+            // A NOVIDADE: Persistência do Lado
+            putString("SAVED_LADO", ladoAtual)
+            putInt("SAVED_INDEX_LADO", indexLado)
+
             apply()
         }
     }
 
     private fun carregarProgresso() {
         val sp = getSharedPreferences("DadosObra", MODE_PRIVATE)
+
+        // Recupera Estaca e Serviço
         estacaAtual = sp.getInt("SAVED_ESTACA", 4032)
         servicoAtual = sp.getString("SAVED_SERVICO", "ROÇADA") ?: "ROÇADA"
-        contratoAtual = sp.getString("SAVED_CONTRATO", "TT-563/2024") ?: "TT-563/2024"
+
+        // Recupera Contrato e seu Índice
+        indexContrato = sp.getInt("SAVED_INDEX_CONTRATO", 0)
+        contratoAtual = sp.getString("SAVED_CONTRATO", opcoesContrato[indexContrato]) ?: opcoesContrato[indexContrato]
+
+        // Recupera Lado e seu Índice
+        indexLado = sp.getInt("SAVED_INDEX_LADO", 0)
+        ladoAtual = sp.getString("SAVED_LADO", opcoesLado[indexLado]) ?: opcoesLado[indexLado]
+
         atualizarVisorHUD()
     }
 

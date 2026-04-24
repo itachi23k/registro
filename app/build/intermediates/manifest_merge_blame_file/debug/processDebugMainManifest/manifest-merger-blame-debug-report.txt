@@ -9,61 +9,61 @@
 9        android:targetSdkVersion="35" />
 10
 11    <uses-permission android:name="android.permission.CAMERA" />
-11-->C:\Registro\app\src\main\AndroidManifest.xml:5:5-65
-11-->C:\Registro\app\src\main\AndroidManifest.xml:5:22-62
+11-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:5:22-62
 12
 13    <uses-feature
-13-->C:\Registro\app\src\main\AndroidManifest.xml:6:5-84
+13-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:6:5-84
 14        android:name="android.hardware.camera"
-14-->C:\Registro\app\src\main\AndroidManifest.xml:6:19-57
+14-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:6:19-57
 15        android:required="true" />
-15-->C:\Registro\app\src\main\AndroidManifest.xml:6:58-81
+15-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:6:58-81
 16
 17    <uses-permission android:name="android.permission.VIBRATE" />
-17-->C:\Registro\app\src\main\AndroidManifest.xml:7:5-66
-17-->C:\Registro\app\src\main\AndroidManifest.xml:7:22-63
+17-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:7:5-66
+17-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:7:22-63
 18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-18-->C:\Registro\app\src\main\AndroidManifest.xml:9:5-79
-18-->C:\Registro\app\src\main\AndroidManifest.xml:9:22-76
+18-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:9:5-79
+18-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:9:22-76
 19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-19-->C:\Registro\app\src\main\AndroidManifest.xml:10:5-81
-19-->C:\Registro\app\src\main\AndroidManifest.xml:10:22-78
+19-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:10:5-81
+19-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:10:22-78
 20    <uses-permission android:name="android.permission.INTERNET" />
-20-->C:\Registro\app\src\main\AndroidManifest.xml:12:5-67
-20-->C:\Registro\app\src\main\AndroidManifest.xml:12:22-64
+20-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:12:5-67
+20-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:12:22-64
 21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-21-->C:\Registro\app\src\main\AndroidManifest.xml:13:5-79
-21-->C:\Registro\app\src\main\AndroidManifest.xml:13:22-76
+21-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:13:5-79
+21-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:13:22-76
 22    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-22-->C:\Registro\app\src\main\AndroidManifest.xml:15:5-76
-22-->C:\Registro\app\src\main\AndroidManifest.xml:15:22-73
+22-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:15:5-76
+22-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:15:22-73
 23    <uses-permission
-23-->C:\Registro\app\src\main\AndroidManifest.xml:16:5-107
+23-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:16:5-107
 24        android:name="android.permission.READ_EXTERNAL_STORAGE"
-24-->C:\Registro\app\src\main\AndroidManifest.xml:16:22-77
+24-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:16:22-77
 25        android:maxSdkVersion="32" />
-25-->C:\Registro\app\src\main\AndroidManifest.xml:16:78-104
+25-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:16:78-104
 26    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-26-->C:\Registro\app\src\main\AndroidManifest.xml:15:5-76
-26-->C:\Registro\app\src\main\AndroidManifest.xml:15:22-73
+26-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:15:5-76
+26-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:15:22-73
 27    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
-27-->C:\Registro\app\src\main\AndroidManifest.xml:18:5-90
-27-->C:\Registro\app\src\main\AndroidManifest.xml:18:22-87
+27-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:18:5-90
+27-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:18:22-87
 28    <uses-permission
-28-->C:\Registro\app\src\main\AndroidManifest.xml:20:5-22:40
+28-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:20:5-22:40
 29        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-29-->C:\Registro\app\src\main\AndroidManifest.xml:20:22-78
+29-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:20:22-78
 30        android:maxSdkVersion="28" />
-30-->C:\Registro\app\src\main\AndroidManifest.xml:21:9-35
+30-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:21:9-35
 31
 32    <queries>
-32-->C:\Registro\app\src\main\AndroidManifest.xml:25:5-28:15
+32-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:25:5-28:15
 33        <package android:name="com.google.android.gms" />
-33-->C:\Registro\app\src\main\AndroidManifest.xml:26:9-58
-33-->C:\Registro\app\src\main\AndroidManifest.xml:26:18-55
+33-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:26:9-58
+33-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:26:18-55
 34        <package android:name="com.android.vending" />
-34-->C:\Registro\app\src\main\AndroidManifest.xml:27:9-55
-34-->C:\Registro\app\src\main\AndroidManifest.xml:27:18-52
+34-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:27:9-55
+34-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:27:18-52
 35    </queries>
 36
 37    <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -94,107 +94,107 @@
 47-->[androidx.core:core:1.15.0] C:\Users\cassi\.gradle\caches\9.3.1\transforms\db4cb7a4a090c49e173c533932fc31a8\workspace\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
 48
 49    <application
-49-->C:\Registro\app\src\main\AndroidManifest.xml:32:5-90:15
+49-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:32:5-90:15
 50        android:allowBackup="true"
-50-->C:\Registro\app\src\main\AndroidManifest.xml:33:9-35
+50-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:33:9-35
 51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 51-->[androidx.core:core:1.15.0] C:\Users\cassi\.gradle\caches\9.3.1\transforms\db4cb7a4a090c49e173c533932fc31a8\workspace\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
 52        android:dataExtractionRules="@xml/data_extraction_rules"
-52-->C:\Registro\app\src\main\AndroidManifest.xml:34:9-65
+52-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:34:9-65
 53        android:debuggable="true"
 54        android:extractNativeLibs="false"
 55        android:fullBackupContent="@xml/backup_rules"
-55-->C:\Registro\app\src\main\AndroidManifest.xml:35:9-54
+55-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:35:9-54
 56        android:hardwareAccelerated="true"
-56-->C:\Registro\app\src\main\AndroidManifest.xml:42:9-43
+56-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:42:9-43
 57        android:icon="@mipmap/ic_launcher_foreground"
-57-->C:\Registro\app\src\main\AndroidManifest.xml:36:9-54
+57-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:36:9-54
 58        android:label="@string/app_name"
-58-->C:\Registro\app\src\main\AndroidManifest.xml:37:9-41
+58-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:37:9-41
 59        android:largeHeap="true"
-59-->C:\Registro\app\src\main\AndroidManifest.xml:41:9-33
+59-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:41:9-33
 60        android:preserveLegacyExternalStorage="true"
-60-->C:\Registro\app\src\main\AndroidManifest.xml:44:9-53
+60-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:44:9-53
 61        android:requestLegacyExternalStorage="true"
-61-->C:\Registro\app\src\main\AndroidManifest.xml:43:9-52
+61-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:43:9-52
 62        android:roundIcon="@mipmap/ic_launcher_round"
-62-->C:\Registro\app\src\main\AndroidManifest.xml:38:9-54
+62-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:38:9-54
 63        android:supportsRtl="true"
-63-->C:\Registro\app\src\main\AndroidManifest.xml:39:9-35
+63-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:39:9-35
 64        android:testOnly="true"
 65        android:theme="@style/Theme.Registro"
-65-->C:\Registro\app\src\main\AndroidManifest.xml:40:9-46
+65-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:40:9-46
 66        android:usesCleartextTraffic="true" >
-66-->C:\Registro\app\src\main\AndroidManifest.xml:45:9-44
+66-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:45:9-44
 67        <activity
-67-->C:\Registro\app\src\main\AndroidManifest.xml:50:5-59:16
+67-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:50:5-59:16
 68            android:name="com.cj.registrodecampo.AtivacaoActivity"
-68-->C:\Registro\app\src\main\AndroidManifest.xml:51:9-41
+68-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:51:9-41
 69            android:configChanges="orientation|screenSize|keyboardHidden"
-69-->C:\Registro\app\src\main\AndroidManifest.xml:54:9-70
+69-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:54:9-70
 70            android:exported="true"
-70-->C:\Registro\app\src\main\AndroidManifest.xml:52:9-32
+70-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:52:9-32
 71            android:screenOrientation="portrait" >
-71-->C:\Registro\app\src\main\AndroidManifest.xml:53:9-45
+71-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:53:9-45
 72            <intent-filter>
-72-->C:\Registro\app\src\main\AndroidManifest.xml:55:9-58:25
+72-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:55:9-58:25
 73                <action android:name="android.intent.action.MAIN" />
-73-->C:\Registro\app\src\main\AndroidManifest.xml:56:13-65
-73-->C:\Registro\app\src\main\AndroidManifest.xml:56:21-62
+73-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:56:13-65
+73-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:56:21-62
 74
 75                <category android:name="android.intent.category.LAUNCHER" />
-75-->C:\Registro\app\src\main\AndroidManifest.xml:57:13-73
-75-->C:\Registro\app\src\main\AndroidManifest.xml:57:23-70
+75-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:57:13-73
+75-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:57:23-70
 76            </intent-filter>
 77        </activity>
 78        <activity
-78-->C:\Registro\app\src\main\AndroidManifest.xml:61:5-65:42
+78-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:61:5-65:42
 79            android:name="com.cj.registrodecampo.HubActivity"
-79-->C:\Registro\app\src\main\AndroidManifest.xml:62:9-36
+79-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:62:9-36
 80            android:configChanges="orientation|screenSize|keyboardHidden"
-80-->C:\Registro\app\src\main\AndroidManifest.xml:64:9-70
+80-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:64:9-70
 81            android:launchMode="singleTop"
-81-->C:\Registro\app\src\main\AndroidManifest.xml:65:9-39
+81-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:65:9-39
 82            android:screenOrientation="portrait" />
-82-->C:\Registro\app\src\main\AndroidManifest.xml:63:9-45
+82-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:63:9-45
 83        <activity
-83-->C:\Registro\app\src\main\AndroidManifest.xml:67:5-72:42
+83-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:67:5-72:42
 84            android:name="com.cj.registrodecampo.MainActivity"
-84-->C:\Registro\app\src\main\AndroidManifest.xml:68:9-37
+84-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:68:9-37
 85            android:configChanges="orientation|screenSize|keyboardHidden|screenLayout|smallestScreenSize"
-85-->C:\Registro\app\src\main\AndroidManifest.xml:71:9-102
+85-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:71:9-102
 86            android:exported="false"
-86-->C:\Registro\app\src\main\AndroidManifest.xml:69:9-33
+86-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:69:9-33
 87            android:launchMode="singleTop"
-87-->C:\Registro\app\src\main\AndroidManifest.xml:72:9-39
+87-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:72:9-39
 88            android:screenOrientation="landscape" />
-88-->C:\Registro\app\src\main\AndroidManifest.xml:70:9-46
+88-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:70:9-46
 89        <activity
-89-->C:\Registro\app\src\main\AndroidManifest.xml:74:5-78:42
+89-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:74:5-78:42
 90            android:name="com.cj.registrodecampo.SyncActivity"
-90-->C:\Registro\app\src\main\AndroidManifest.xml:75:9-37
+90-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:75:9-37
 91            android:configChanges="orientation|screenSize|keyboardHidden"
-91-->C:\Registro\app\src\main\AndroidManifest.xml:77:9-70
+91-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:77:9-70
 92            android:launchMode="singleTop"
-92-->C:\Registro\app\src\main\AndroidManifest.xml:78:9-39
+92-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:78:9-39
 93            android:screenOrientation="portrait" />
-93-->C:\Registro\app\src\main\AndroidManifest.xml:76:9-45
+93-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:76:9-45
 94
 95        <provider
 96            android:name="androidx.core.content.FileProvider"
-96-->C:\Registro\app\src\main\AndroidManifest.xml:81:9-58
+96-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:81:9-58
 97            android:authorities="com.cj.registrodecampo.provider"
-97-->C:\Registro\app\src\main\AndroidManifest.xml:82:9-56
+97-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:82:9-56
 98            android:exported="false"
-98-->C:\Registro\app\src\main\AndroidManifest.xml:83:9-33
+98-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:83:9-33
 99            android:grantUriPermissions="true" >
-99-->C:\Registro\app\src\main\AndroidManifest.xml:84:9-43
+99-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:84:9-43
 100            <meta-data
-100-->C:\Registro\app\src\main\AndroidManifest.xml:85:9-87:50
+100-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:85:9-87:50
 101                android:name="android.support.FILE_PROVIDER_PATHS"
-101-->C:\Registro\app\src\main\AndroidManifest.xml:86:13-63
+101-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:86:13-63
 102                android:resource="@xml/file_paths" />
-102-->C:\Registro\app\src\main\AndroidManifest.xml:87:13-47
+102-->C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:87:13-47
 103        </provider>
 104
 105        <service

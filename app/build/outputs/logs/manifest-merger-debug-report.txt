@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from C:\Registro\app\src\main\AndroidManifest.xml:80:5-88:16
+INJECTED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:80:5-88:16
 	android:grantUriPermissions
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:84:9-43
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:84:9-43
 	android:authorities
-		INJECTED from C:\Registro\app\src\main\AndroidManifest.xml
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:82:9-56
+		INJECTED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:82:9-56
 	android:exported
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:83:9-33
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:83:9-33
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:81:9-58
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:81:9-58
 manifest
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:2:1-91:16
-INJECTED from C:\Registro\app\src\main\AndroidManifest.xml:2:1-91:16
-INJECTED from C:\Registro\app\src\main\AndroidManifest.xml:2:1-91:16
-INJECTED from C:\Registro\app\src\main\AndroidManifest.xml:2:1-91:16
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:2:1-91:16
+INJECTED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:2:1-91:16
+INJECTED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:2:1-91:16
+INJECTED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:2:1-91:16
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\cassi\.gradle\caches\9.3.1\transforms\be146e8259a80744800128cd673a9861\workspace\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\cassi\.gradle\caches\9.3.1\transforms\daf9d115f56e24a07571f771687dfabf\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\cassi\.gradle\caches\9.3.1\transforms\aac7b7602135db417bbb1a07683fa5af\workspace\transformed\jetified-camera-video-1.4.1\AndroidManifest.xml:2:1-7:12
@@ -113,39 +113,39 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\cassi\.gradle\c
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] C:\Users\cassi\.gradle\caches\9.3.1\transforms\1a2b4f70d983d4736e7d6a7cdeb47b99\workspace\transformed\jetified-protolite-well-known-types-18.0.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.play:core-common:2.0.4] C:\Users\cassi\.gradle\caches\9.3.1\transforms\766476d24bc8cd3c6cd993107a7e6cf0\workspace\transformed\jetified-core-common-2.0.4\AndroidManifest.xml:2:1-21:12
 	package
-		INJECTED from C:\Registro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Registro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Registro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:5:5-65
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:5:5-65
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:5:22-62
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:5:22-62
 uses-feature#android.hardware.camera
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:6:5-84
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:6:5-84
 	android:required
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:6:58-81
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:6:58-81
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:6:19-57
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:6:19-57
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:7:5-66
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:7:5-66
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:7:22-63
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:7:22-63
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:9:5-79
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:9:22-76
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:9:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:10:5-81
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:10:22-78
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:10:22-78
 uses-permission#android.permission.INTERNET
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:12:5-67
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:12:5-67
 MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\cassi\.gradle\caches\9.3.1\transforms\ebf86920b53ea08feef17b5fbb0a86be\workspace\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\cassi\.gradle\caches\9.3.1\transforms\ebf86920b53ea08feef17b5fbb0a86be\workspace\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-firestore:26.1.1] C:\Users\cassi\.gradle\caches\9.3.1\transforms\78cfea2a6fa2af7459a0fb18e5b9119c\workspace\transformed\jetified-firebase-firestore-26.1.1\AndroidManifest.xml:11:5-67
@@ -165,9 +165,9 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\cassi\.gradle\caches\9.3.1\transforms\5d254a2935ad829f977a93bfea4a080d\workspace\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\cassi\.gradle\caches\9.3.1\transforms\5d254a2935ad829f977a93bfea4a080d\workspace\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:12:22-64
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:13:5-79
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\cassi\.gradle\caches\9.3.1\transforms\ebf86920b53ea08feef17b5fbb0a86be\workspace\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\cassi\.gradle\caches\9.3.1\transforms\ebf86920b53ea08feef17b5fbb0a86be\workspace\transformed\jetified-firebase-database-22.0.1\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-firestore:26.1.1] C:\Users\cassi\.gradle\caches\9.3.1\transforms\78cfea2a6fa2af7459a0fb18e5b9119c\workspace\transformed\jetified-firebase-firestore-26.1.1\AndroidManifest.xml:10:5-79
@@ -191,42 +191,42 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\cassi\.gradle\caches\9.3.1\transforms\528d33880dfe79f7b07439976b776ea9\workspace\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:7:5-79
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\cassi\.gradle\caches\9.3.1\transforms\528d33880dfe79f7b07439976b776ea9\workspace\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:13:22-76
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:13:22-76
 uses-permission#android.permission.READ_MEDIA_IMAGES
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:15:5-76
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:15:5-76
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:15:22-73
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:15:22-73
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:16:5-107
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:16:5-107
 	android:maxSdkVersion
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:16:78-104
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:16:78-104
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:16:22-77
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:16:22-77
 uses-permission#android.permission.READ_MEDIA_VISUAL_USER_SELECTED
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:18:5-90
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:18:5-90
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:18:22-87
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:18:22-87
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:20:5-22:40
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:20:5-22:40
 	android:maxSdkVersion
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:21:9-35
 	tools:ignore
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:22:9-37
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:22:9-37
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:20:22-78
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:20:22-78
 queries
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:25:5-28:15
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:25:5-28:15
 package#com.google.android.gms
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:26:9-58
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:26:9-58
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:26:18-55
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:26:18-55
 package#com.android.vending
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:27:9-55
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:27:9-55
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:27:18-52
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:27:18-52
 application
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:32:5-90:15
-INJECTED from C:\Registro\app\src\main\AndroidManifest.xml:32:5-90:15
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:32:5-90:15
+INJECTED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:32:5-90:15
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\cassi\.gradle\caches\9.3.1\transforms\be146e8259a80744800128cd673a9861\workspace\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\cassi\.gradle\caches\9.3.1\transforms\be146e8259a80744800128cd673a9861\workspace\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\cassi\.gradle\caches\9.3.1\transforms\daf9d115f56e24a07571f771687dfabf\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
@@ -310,99 +310,99 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\cassi\.gradle\c
 MERGED from [com.google.android.play:core-common:2.0.4] C:\Users\cassi\.gradle\caches\9.3.1\transforms\766476d24bc8cd3c6cd993107a7e6cf0\workspace\transformed\jetified-core-common-2.0.4\AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.play:core-common:2.0.4] C:\Users\cassi\.gradle\caches\9.3.1\transforms\766476d24bc8cd3c6cd993107a7e6cf0\workspace\transformed\jetified-core-common-2.0.4\AndroidManifest.xml:11:5-19:19
 	android:extractNativeLibs
-		INJECTED from C:\Registro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml
 	android:requestLegacyExternalStorage
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:43:9-52
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:43:9-52
 	tools:ignore
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:47:9-33
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:47:9-33
 	android:roundIcon
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:38:9-54
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:38:9-54
 	android:largeHeap
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:41:9-33
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:41:9-33
 	android:icon
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:36:9-54
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:36:9-54
 	android:preserveLegacyExternalStorage
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:44:9-53
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:44:9-53
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.15.0] C:\Users\cassi\.gradle\caches\9.3.1\transforms\db4cb7a4a090c49e173c533932fc31a8\workspace\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:39:9-35
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:39:9-35
 	android:label
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:37:9-41
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:37:9-41
 	android:hardwareAccelerated
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:42:9-43
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:42:9-43
 	android:fullBackupContent
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:35:9-54
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:35:9-54
 	android:allowBackup
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:33:9-35
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:33:9-35
 	android:theme
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:40:9-46
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:40:9-46
 	android:dataExtractionRules
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:34:9-65
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:34:9-65
 	android:usesCleartextTraffic
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:45:9-44
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:45:9-44
 activity#com.cj.registrodecampo.AtivacaoActivity
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:50:5-59:16
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:50:5-59:16
 	android:screenOrientation
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:53:9-45
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:53:9-45
 	android:exported
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:52:9-32
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:52:9-32
 	android:configChanges
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:54:9-70
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:54:9-70
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:51:9-41
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:51:9-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:55:9-58:25
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:55:9-58:25
 action#android.intent.action.MAIN
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:56:13-65
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:56:13-65
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:56:21-62
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:56:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:57:13-73
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:57:13-73
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:57:23-70
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:57:23-70
 activity#com.cj.registrodecampo.HubActivity
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:61:5-65:42
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:61:5-65:42
 	android:screenOrientation
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:63:9-45
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:63:9-45
 	android:launchMode
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:65:9-39
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:65:9-39
 	android:configChanges
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:64:9-70
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:64:9-70
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:62:9-36
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:62:9-36
 activity#com.cj.registrodecampo.MainActivity
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:67:5-72:42
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:67:5-72:42
 	android:screenOrientation
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:70:9-46
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:70:9-46
 	android:launchMode
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:72:9-39
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:72:9-39
 	android:exported
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:69:9-33
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:69:9-33
 	android:configChanges
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:71:9-102
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:71:9-102
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:68:9-37
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:68:9-37
 activity#com.cj.registrodecampo.SyncActivity
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:74:5-78:42
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:74:5-78:42
 	android:screenOrientation
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:76:9-45
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:76:9-45
 	android:launchMode
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:78:9-39
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:78:9-39
 	android:configChanges
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:77:9-70
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:77:9-70
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:75:9-37
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:75:9-37
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Registro\app\src\main\AndroidManifest.xml:85:9-87:50
+ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:85:9-87:50
 	android:resource
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:87:13-47
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:87:13-47
 	android:name
-		ADDED from C:\Registro\app\src\main\AndroidManifest.xml:86:13-63
+		ADDED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml:86:13-63
 uses-sdk
-INJECTED from C:\Registro\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Registro\app\src\main\AndroidManifest.xml
-INJECTED from C:\Registro\app\src\main\AndroidManifest.xml
+INJECTED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml
+INJECTED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\cassi\.gradle\caches\9.3.1\transforms\be146e8259a80744800128cd673a9861\workspace\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\cassi\.gradle\caches\9.3.1\transforms\be146e8259a80744800128cd673a9861\workspace\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\cassi\.gradle\caches\9.3.1\transforms\daf9d115f56e24a07571f771687dfabf\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml:5:5-44
@@ -598,9 +598,9 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] C:\Users\cas
 MERGED from [com.google.android.play:core-common:2.0.4] C:\Users\cassi\.gradle\caches\9.3.1\transforms\766476d24bc8cd3c6cd993107a7e6cf0\workspace\transformed\jetified-core-common-2.0.4\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.play:core-common:2.0.4] C:\Users\cassi\.gradle\caches\9.3.1\transforms\766476d24bc8cd3c6cd993107a7e6cf0\workspace\transformed\jetified-core-common-2.0.4\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		INJECTED from C:\Registro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Registro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Documentos\Registro\registro\app\src\main\AndroidManifest.xml
 service#androidx.camera.core.impl.MetadataHolderService
 ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\cassi\.gradle\caches\9.3.1\transforms\56d2284e94605ec90f6780c1314b6250\workspace\transformed\jetified-camera-camera2-1.4.1\AndroidManifest.xml:24:9-33:19
 MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\cassi\.gradle\caches\9.3.1\transforms\939ac61f80b651826a4870e21d4d118c\workspace\transformed\jetified-camera-core-1.4.1\AndroidManifest.xml:29:9-33:78
