@@ -1,7 +1,8 @@
- plugins {
+plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.google.services)
+    id("org.jetbrains.kotlin.plugin.compose") version "2.0.0"
 }
 
 android {
@@ -33,14 +34,23 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
     kotlinOptions {
         jvmTarget = "11"
     }
-}
+
+    // --- CONFIGURAÇÕES DO COMPOSE CORRIGIDAS PARA KOTLIN DSL ---
+    buildFeatures {
+        compose = true
+    }
+
+
+} // <-- A chave do bloco android fecha APENAS AQUI agora
 
 dependencies {
     implementation(libs.androidx.core.ktx)
@@ -48,7 +58,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -78,17 +88,25 @@ dependencies {
     implementation("com.google.firebase:firebase-storage")
     implementation("com.google.firebase:firebase-firestore")
 
+    // Glide
     implementation("com.github.bumptech.glide:glide:4.16.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
+
+    // App Check
     implementation("com.google.firebase:firebase-appcheck-playintegrity")
 
     // --- RETROFIT (Para falar com a Oracle Cloud) ---
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    // Conversor Gson (Opcional, mas bom ter)
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-    // Interceptor de Logs (Para debug, muito útil)
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
 
+    // --- JETPACK COMPOSE (Corrigido para Kotlin DSL) ---
+    val composeBom = platform("androidx.compose:compose-bom:2024.04.01")
+    implementation(composeBom)
 
-
+    implementation("androidx.compose.ui:ui")
+    implementation("androidx.compose.material3:material3")
+    implementation("androidx.compose.ui:ui-tooling-preview")
+    implementation("androidx.activity:activity-compose:1.9.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.2")
 }

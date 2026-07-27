@@ -220,6 +220,7 @@ class MainActivity : AppCompatActivity() {
                                     "CAMADA DE REFORÇO",
                                     "CANTEIRO DE OBRAS",
                                     "CHECKLIST DE EQUIPAMENTO",
+                                    "CORREÇÃO DE ENROCAMENTO",
                                     "DESCARREGAMENTO DE BALSA",
                                     "ENROCAMENTO",
                                     "EROSÃO",
@@ -232,6 +233,7 @@ class MainActivity : AppCompatActivity() {
                                     "IMPRIMAÇÃO",
                                     "LANÇAMENTO DE BGS",
                                     "LASTRO DE BRITA",
+                                    "LASTRO DE AREIA",
                                     "LIMPEZA DE SARJETA",
                                     "LIMPEZA DE VALA DE DRENAGEM",
                                     "PATRULHA DE EQUIPAMENTOS",
@@ -243,6 +245,7 @@ class MainActivity : AppCompatActivity() {
                                     "REGULARIZAÇÃO DE SUBLEITO",
                                     "REMENDO PROFUNDO",
                                     "REMOÇÃO E TRANSPORTE",
+                                    "REMOÇÃO DE ÁRVORES",
                                     "REVESTIMENTO PRIMÁRIO 01",
                                     "REVESTIMENTO PRIMÁRIO 02",
                                     "ROÇADA",
@@ -262,12 +265,14 @@ class MainActivity : AppCompatActivity() {
         findViewById<MaterialButton>(R.id.btnSideContrato).setOnClickListener {
             indexContrato = (indexContrato + 1) % opcoesContrato.size
             contratoAtual = opcoesContrato[indexContrato]
+            vibrar(70)
             salvarProgresso(); atualizarVisorHUD()
         }
 
         findViewById<MaterialButton>(R.id.btnSideLado).setOnClickListener {
             indexLado = (indexLado + 1) % opcoesLado.size
             ladoAtual = opcoesLado[indexLado]
+            vibrar(70)
             salvarProgresso(); atualizarVisorHUD()
         }
 
@@ -340,7 +345,7 @@ class MainActivity : AppCompatActivity() {
                         val contratoParaArquivo = contratoAtual.replace("/", "-")
 
                         val bitmapClean = Bitmap.createScaledBitmap(bitmapOriginal, 1440, 1080, true)
-                        bitmapOriginal.recycle()
+                        //bitmapOriginal.recycle()
 
                         val bitmapLegend = bitmapClean.copy(bitmapClean.config ?: Bitmap.Config.ARGB_8888, true)
                         estamparDadosNoBitmap(bitmapLegend)

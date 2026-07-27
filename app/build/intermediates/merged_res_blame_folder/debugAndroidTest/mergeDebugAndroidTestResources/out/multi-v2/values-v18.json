@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cj.registrodecampo.test.app-mergeDebugAndroidTestResources-1:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\cassi\\.gradle\\caches\\9.3.1\\transforms\\590e8b921f908d5a5e42c0b130577314\\workspace\\transformed\\jetified-core-1.6.1\\res\\values-v18\\values.xml",
+                    "from": {
+                        "startLines": "4,12",
+                        "startColumns": "0,0",
+                        "startOffsets": "146,562",
+                        "endLines": "11,19",
+                        "endColumns": "8,8",
+                        "endOffsets": "561,975"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,475",
+                        "endLines": "9,17",
+                        "endColumns": "8,8",
+                        "endOffsets": "470,888"
+                    }
+                }
+            ]
+        }
+    ]
+}

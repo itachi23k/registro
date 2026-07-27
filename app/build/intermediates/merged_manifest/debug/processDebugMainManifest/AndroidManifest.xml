@@ -203,11 +203,6 @@
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
-
-        <uses-library
-            android:name="android.ext.adservices"
-            android:required="false" />
-
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.cj.registrodecampo.androidx-startup"
@@ -222,6 +217,10 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="android.ext.adservices"
+            android:required="false" />
 
         <meta-data
             android:name="com.google.android.gms.version"
