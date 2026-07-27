@@ -1,6 +1,0 @@
-com.cj.registrodecampo.test.app-androidTest-0 C:\Documentos\Registro\registro\app\build\generated\res\resValues\androidTest\debug
-com.cj.registrodecampo.test.app-mergeDebugAndroidTestResources-1 C:\Documentos\Registro\registro\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.cj.registrodecampo.test.app-mergeDebugAndroidTestResources-2 C:\Documentos\Registro\registro\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.cj.registrodecampo.test.app-debugAndroidTest-3 C:\Documentos\Registro\registro\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
-com.cj.registrodecampo.test.app-jetified-core-1.6.1-4 C:\Users\cassi\.gradle\caches\9.3.1\transforms\590e8b921f908d5a5e42c0b130577314\workspace\transformed\jetified-core-1.6.1\res
-com.cj.registrodecampo.test.app-jetified-tracing-1.2.0-5 C:\Users\cassi\.gradle\caches\9.3.1\transforms\d1865df704bd2b2efb886de2f2b44599\workspace\transformed\jetified-tracing-1.2.0\res

@@ -1,3 +1,0 @@
-com.cj.registrodecampo.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
